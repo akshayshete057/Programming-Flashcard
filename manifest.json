@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+
+  "name": "Programming FlashCard",
+  "description": "Programming Question and their answer in your browser tabs",
+  "version": "1.1.0",
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "flash.html"
+  },
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+
+}
